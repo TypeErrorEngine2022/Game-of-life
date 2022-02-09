@@ -38,7 +38,7 @@ void comp_state(cells board[][SIZE], int row, int col){
     else board[row][col].next_state = board[row][col].state; //statis
 }
 
-void life(cells board[][SIZE]){ //receive 1D array
+void life(cells board[][SIZE]){
     printf("Life begins!\n");
     Print(board);
     int gen; 
