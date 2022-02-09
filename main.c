@@ -41,7 +41,7 @@ void comp_state(cells board[][SIZE], int row, int col){
 void life(cells board[][SIZE]){ //receive 1D array
     printf("Life begins!\n");
     Print(board);
-    int gen; //not actual generation
+    int gen; 
     printf("Enter relative number of generations:");
     scanf("%d", &gen);
     for (int ct = 0; ct < gen; ct++){
